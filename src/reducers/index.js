@@ -1,6 +1,6 @@
-import { combineReducer } from 'redux';
-import quotes from './simpsonsReducer';
+import { combineReducers } from 'redux';
+import quoteObj from './simpsonsReducer';
 
-export default combineReducer({
-  quotes
+export default combineReducers({
+  quoteObj
 });
